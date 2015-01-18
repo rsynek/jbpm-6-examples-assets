@@ -3,7 +3,7 @@
 <property name="name" value="org.jbpm.examples.rewards-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="employeeRewardData_recipient" type="InputText" id="1215712934">
+<field position="1" name="employeeRewardData_recipient" type="InputText" id="1215712934">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;recipient (employeeRewardData)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -15,7 +15,7 @@
 <property name="outputBinding" value="employeeRewardDataOut/recipient"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="employeeRewardData_reward" type="InputTextInteger" id="842041737">
+<field position="2" name="employeeRewardData_reward" type="InputTextInteger" id="842041737">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;reward (employeeRewardData)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -24,6 +24,13 @@
 <property name="inputBinding" value="employeeRewardDataIn/reward"/>
 <property name="outputBinding" value="employeeRewardDataOut/reward"/>
 <property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="255983170">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;enquot;,quot;HTMLquot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="employeeRewardDataIn" name="#E9E371" type="dataModelerEntry" outId="employeeRewardDataOut" value="org.jbpm.examples.rewards.EmployeeReward" id="employeeRewardData"/>
 </form>
