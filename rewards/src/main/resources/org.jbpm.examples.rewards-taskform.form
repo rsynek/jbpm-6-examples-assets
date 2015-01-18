@@ -1,0 +1,35 @@
+
+<form id="1518138574">
+<property name="name" value="org.jbpm.examples.rewards-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="employeeRewardData_reward" type="InputTextInteger" id="1595432493">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reward (employeeRewardData)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employeeRewardData/reward"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="employeeRewardData_pmComment" type="InputText" id="325532604">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pmComment (employeeRewardData)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employeeRewardData/pmComment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="employeeRewardData_recipient" type="InputText" id="1464978602">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;recipient (employeeRewardData)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employeeRewardData/recipient"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="employeeRewardData_hrComment" type="InputText" id="14540577">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hrComment (employeeRewardData)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="employeeRewardData/hrComment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="employeeRewardData" value="org.jbpm.examples.rewards.EmployeeReward" id="employeeRewardData"/>
+</form>
