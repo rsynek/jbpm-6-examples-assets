@@ -1,6 +1,5 @@
 package org.jbpm.solution.rewards;
 
-import org.jbpm.examples.rewards.EmployeeReward;
 import java.lang.Object;
 
 /**
